@@ -13,6 +13,8 @@
     <!-- Improve your SEO by adding a small descrption of you -->
     <meta name="description" content="[Your name here] | Developer" />
 
+    <meta name="robots" content="noindex, nofollow"/>
+
     <!-- Required librarys -->
     <link
       rel="stylesheet"
@@ -50,7 +52,7 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title">
-          Acerca de mí
+          Acerca del portafolio
         </h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
@@ -67,18 +69,20 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Soy Ing. Mecatrónico con preferencias orientadas hacia la programación.
+                A continuación, se encuentran los proyectos que he realizado en el transcurso de mi carrera.
               </p>
               <p class="about-wrapper__info-text">
-                Me gustan los retos y aprender nuevas tecnologías constantemente.
+                Los primeros proyectos, son páginas web que he desarrollado en mi trabajo actual. Todos estos proyectos están funcionando y generando ingresos 
+                en la actualidad.
               </p>
               <p class="about-wrapper__info-text">
-                Actualmente estoy interesado en trabajar ya sea en <em>Frontend</em> o en <em>Backend</em>. Mi meta es convertirme en un <em>Full Stack Developer</em>.
+                Después, siguen proyectos realizados en la universidad, o que realicé por mera pasión, tratando de solucionar problemas, ya sea mediante <em>Software</em>, o mediante <em>Mecatrónica</em>. 
+              </p>
+              <p class="about-wrapper__info-text">
+                En algunos proyectos, no muestro el <em>código fuente</em>, o la versión <em>online</em>, debido a que son privados. Aun así, explico en qué consiste su funcionalidad.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://fernandodzay.github.io/Proyectos_PDFs">
-                  Currículum
-                </a>
+                <a class="cta-btn cta-btn--resume" href="#projects">Ver más</a>
               </span>
             </div>
           </div>
@@ -91,9 +95,142 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Proyectos
-          </h2>
+          <h2 class="section-title dark-blue-text">Proyectos 2021</h2>
+
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">valmovilidad.com</h3>
+                <div>
+                  <p class="mb-4">
+                    Página web que ofrece servicios de transportación en el Aeropuerto de Cancún. El cliente puede crear, ver y pagar su reservación de transporte para una fecha determinada. Se utilizó PHP, Yii2 Framework, JQuery, SCSS, y Gulp.js. Trabajé en la programación del proyecto completo, Frontend y Backend.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.valmovilidad.com/">
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://www.valmovilidad.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/val.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">airporthotelshuttle.com</h3>
+                <div>
+                  <p class="mb-4">
+                    Esta página web es una similar a la de valmovilidad.com, la diferencia es que en este proyecto sólo trabajé la parte Frontend, maquetando todo el sitio, y conectando los servicios del backend.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.airporthotelshuttle.com/">
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://www.airporthotelshuttle.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/ahs.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->  
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Point Of Sale (POS), para Etransfers</h3>
+                <div>
+                  <p class="mb-4">
+                    Página web orientada a una aplicación POS. Los usuarios de esta app, son vendedores de transportación en el Aeropuerto de Cancún, que utilizan una Tablet como dispositivo en sus puntos de venta. Se utilizó PHP, Yii2 Framework, JQuery, SCSS, y Gulp.js. Programé toda la parte Frontend del proyecto.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/pos.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">City Car Rental Puerto Vallarta <br>(puertovallartacarrental.net)</h3>
+                <div>
+                  <p class="mb-4">
+                    Página web dedicada a la Renta de autos en Puerto Vallarta. Trabajé en el rediseño de esta página, maquetando todo el sitio desde cero, utilizando mejores prácticas de HTML, CSS, y JS, con la finalidad de que el sitio se vea mejor, que tenga un aspecto de página web más actual, que mejore la velocidad de carga, y que tenga el código mejor ordenado.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.puertovallartacarrental.net/">
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://www.puertovallartacarrental.net/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/puertovallarta.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">airportcancun.com</h3>
+                <div>
+                  <p class="mb-4">
+                    Página web que brinda distintos servicios del Aeropuerto de Cancún. Servicios como por ejemplo: Transportación, renta de autos, tours y hoteles. Además, también cuenta con: Información acerca de Cancún, Playa del Carmen, Tulum, Puerto Aventuras, Playa Mujeres y Akumal; blog, monitoreo de vuelo, objetos perdidos, duty free, entre otros. Mi función fue maquetar absolutamente todo el sitio, teniendo en cuenta la experiencia de usuario, y conectar servicios desde el Frontend para el área de transportación.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.airportcancun.com/">
+                  See Live
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://www.airportcancun.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/airportcancun.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <h2 class="section-title dark-blue-text">Proyectos Universitarios (orientados a Programación)</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
@@ -102,7 +239,7 @@
                 <h3 class="project-wrapper__text-title">Face Recognition App</h3>
                 <div>
                   <p class="mb-4">
-                    Página web de reconocimiento facial desarrollada en React mediante servicios de Clarifai-API. Entre las herramientas más importantes, se utilizaron Express, Postgres, bcrypt-library y Tachyons.
+                    Página web de reconocimiento facial desarrollada en React. <br>Para la detección de rostros, se utilizaron servicios de clarifai.com. <br>Entre las herramientas más importantes, se utilizaron Express, Postgres, bcrypt-library y Tachyons para los estilos.
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://fernandodzay.github.io/smart-brain/">
@@ -185,6 +322,8 @@
           </div>
           <!-- /END Project -->
 
+          <h2 class="section-title dark-blue-text">Proyectos Universitarios (orientados a Mecatrónica)</h2>
+
            <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -263,8 +402,8 @@
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Gracias por ver!</a
+            href="mailto:luisf.dzay@gmail.com"
+            >Enviar correo</a
           >
         </div>
       </div>
