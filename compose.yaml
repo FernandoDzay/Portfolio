@@ -1,0 +1,8 @@
+services:
+  portfolio-prod:
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 80:80

@@ -5,6 +5,10 @@ const path = require('path');
 
 module.exports = merge(common, {
   mode: 'development',
+  devServer: {
+    host: '0.0.0.0',
+    disableHostCheck: true
+  },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
@@ -25,6 +29,6 @@ module.exports = merge(common, {
           'sass-loader'
         ] //1. Turns sass into css
       }
-    ]
+    ],
   }
 });
